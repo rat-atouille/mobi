@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e9eaee;
+}
+
+.editor {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  height: 100vh;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: #1d1f26;
+}
+
+.toolbar button {
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 8px;
+  background: #30333c;
+  color: white;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #ff6b45;
+}
+
+.canvas-area {
+  display: grid;
+  place-items: center;
+  overflow: auto;
+  padding: 40px;
+}
+
+.canvas-area canvas {
+  max-height: calc(100vh - 80px);
+  max-width: 80vw;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+}
