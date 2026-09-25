@@ -1,0 +1,26 @@
+{
+    "navbar": {
+        "home": "Home",
+        "editor": "Editor"
+    },
+    "landingPage": {
+        "pageOne": {
+             "title": "Make your app look as good as it works.",
+             "description": "Mobi is a free, open-source editor for creating App Store and Google Play screenshots.",
+             "button": "Get Started"
+        },
+        "pageTwo": {
+            "title": "Making screenshots shouldn't be harder than making the app.",
+            "description": "General-purpose design tools can be overwhelming when all you need is a great-looking store listing. And many dedicated screenshot tools put their best features behind a subscription."
+        },
+        "pageThree": {
+            "title": "Mobi is free and open-source.",
+            "description": "Mobi is built by indie developers for indie developers."
+        }
+       
+    },
+    "editor": {
+        "title": "Editor",
+        "description": "Use the editor to create and modify your content." 
+    }
+}
